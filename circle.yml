@@ -2,12 +2,6 @@ machine:
   timezone:
     Asia/Calcutta
 
-checkout:
-  post:
-    - git clone https://github.com/pvamshi/vamshi.github.io main
-    - cd main && git submodule init
-    - cd main && git submodule update
-    
 test:
   override:
     - exit 0
@@ -16,13 +10,6 @@ deployment:
   production:
     branch: master
     commands:
-      - git config --global -l #<= totally unnecessary, but "fixes" problem?
-      - git config --global user.email circleci@circleci
-      - git config --global user.name CircleCI
-      - cd main && git add .
-      - cd main && git commit -m "Automated Js Book update (`date '+%F %T %Z'`)" || true
-      - cd main && git push origin main
-
-      
+      - curl -v -X POST https://circleci.com/api/v1/project/pvamshi/vamshi.github.io/tree/master?circle-token=$CIRCLE_TOKEN
       
       
