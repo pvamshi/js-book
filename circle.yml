@@ -9,7 +9,7 @@ checkout:
     - cd main && git submodule update
     
 test:
-  ignore:
+  override:
     - exit 0
 
 deployment:
