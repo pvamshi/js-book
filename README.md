@@ -10,7 +10,7 @@ There is always scope for better example or better explanation or sometimes corr
 
 ### How to contribute 
 Its very very simple.
-- Fork the repository [http://github.com/pvamshi/vamshi.github.io](http://github.com/pvamshi/vamshi.github.io)
+- Fork the repository [http://github.com/pvamshi/js-book](http://github.com/pvamshi/js-book)
 - Correct or add the content directly from github , save 
 - Create pull request 
 
