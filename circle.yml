@@ -10,6 +10,6 @@ deployment:
   production:
     branch: master
     commands:
-      - curl -v -X POST https://circleci.com/api/v1/project/pvamshi/vamshi.github.io/tree/master?circle-token=$CIRCLE_TOKEN
+      - curl -v -X POST https://circleci.com/api/v1/project/pvamshi/vamshi.github.io/tree/master?circle-token=ac52bf999f2fd8f1a3ba3a944cbaa035d19eba1e
       
       
