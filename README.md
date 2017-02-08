@@ -1,6 +1,6 @@
 Javascript for Other Developers
 ===============================
-This is book intended to help developers familiar with other languages ( or students familiar with basic programming) learn Javascript. The topics might range from very basic to advanced. 
+This is book is intended to help developers familiar with other languages ( or students familiar with basic programming) learn Javascript. The topics might range from very basic to advanced. 
 
 ### Why another book
 I have experience of tutoring around 1000 students in Javascript and Java. I want to consolidate all that experience into a book with surplus examples and **optional** detailed explanation provided for the extra curious minds or those needed more help. 
