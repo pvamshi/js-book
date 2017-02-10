@@ -4,7 +4,7 @@
 
 These two are extremely important statements. For few of us who came from languages like Java, it might be shocking. How can object exist without class ? We will deal with that in later sessions when we discuss Object oriented programming. 
 
-Coming to the actual topic. Variables in javascript can be declared in three ways : 
+Since there are not strong types, all variables will have same declaration. Variables in javascript can be declared in three ways : 
 - `var` 
 - `let` 
 - `const` 
